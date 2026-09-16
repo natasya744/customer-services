@@ -7,8 +7,8 @@ This project uses a separate Python + FastAPI backend because the server is resp
 ```bash
 cd backend
 uv sync
-uv add fastapi uvicorn pydantic pydantic-settings httpx structlog openai supabase pydantic-ai sqlalchemy alembic "psycopg[binary]" pgvector
-uv add --dev pytest ruff
+uv add fastapi uvicorn pydantic pydantic-settings httpx openai supabase pydantic-ai sqlalchemy alembic "psycopg[binary]" pgvector
+uv add --dev pytest ruff ipykernel
 ```
 
 ## Database migrations
